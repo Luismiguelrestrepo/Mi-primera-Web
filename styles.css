@@ -1,0 +1,546 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* Encabezado */
+
+header {
+  position: fixed;
+  width: 100%;
+  color: goldenrod;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 12px;
+
+
+}
+
+header h1.logo {
+  font-size: 35px;
+  font-weight: bold;
+  display: inline;
+  line-height: 50px;
+  padding: 0 50px;
+  color: goldenrod;
+}
+
+header nav {
+  float: right;
+  font-size: 20px;
+
+}
+
+header nav ul {
+  margin-top: -100px;
+}
+
+.titulo-multilinea {
+  white-space: pre-wrap;
+  color: goldenrod;
+  height: 200px;
+
+}
+
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  line-height: 20px;
+
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px;
+  color: beige;
+}
+
+nav a:hover {
+  color: beige;
+}
+
+
+
+/*Centro*/
+
+Main {
+  width: 100%;
+  background-color: rgb(88, 91, 228);
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  font-size: 12px;
+  padding: 0px;
+  
+
+}
+
+.article {
+  max-width: 600px;
+  padding-top: 250px;
+  margin-left: 200px;
+
+
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  font-size: 12px;
+  padding: 0px;
+ margin-top: -70px;
+  text-align: center;
+}
+
+
+/* Estilos Generales */
+
+.fuente-clara {
+  color: beige;
+}
+
+.fuente-oscura {
+  color: black;
+}
+
+.fuente-acento {
+  color: goldenrod;
+}
+
+.section-carrusel {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.fondo-blanco {
+  background-color: rgba(0, 0, 0, 0.747);
+  height: 130px;
+}
+
+nav ul.menu li {
+  color: black;
+
+}
+
+.parrafo12 {
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 20px;
+  gap: 220px;
+  max-width: 800px;
+
+
+}
+
+.parrafo-lado {
+  display: flex;
+  /* Usa un contenedor flex para alinear los párrafos en línea */
+  gap: 220px;
+  /* Espacio entre los párrafos */
+}
+
+.parrafo-lado p {
+  flex: 1;
+  /* Hace que los párrafos ocupen el espacio disponible de manera equitativa */
+  max-width: 20%;
+  /* Limita el ancho de cada párrafo al 50% del contenedor */
+  margin-left: 15px;
+}
+
+
+
+.contenedor {
+  margin-top: -220px;
+
+  display: flex;
+  justify-content: right;
+  /* Centrar horizontalmente */
+  align-items: flex-end;
+  margin-right: 40px;
+}
+
+#miparrafo {
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+#tituloespecifico1 {
+  margin-top: 20px;
+  margin-left: 800px;
+  text-align: center;
+
+  justify-content: center;
+  /* Centrar horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
+}
+
+.tituloespecifico {
+  margin-top: 20px;
+}
+
+.img {
+  display: flex;
+  gap: 220px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.titulo1 {
+  display: flex;
+  gap: 410px;
+  margin-top: -15px;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.titulo2 {
+  flex: 1;
+  gap: 10px;
+  margin-top: -15px;
+  font-size: 15px;
+  justify-content: center;
+
+}
+
+/*Menu*/
+
+#check {
+  display: none;
+}
+
+.checkbtn {
+  font-size: 25px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+/* ------------- Formulario ------------- */
+
+.formulario {
+  background-color: #0026ff00;
+  border: 1px solid #d6d9dc00;
+  border-radius: 3px;
+
+  width: 80%;
+  padding: 50px;
+  margin: 30px 0 40px 0;
+  margin-left: 35%;
+}
+
+/* ------------- Campos del Formulario ------------- */
+
+
+
+.form-row label {
+  margin-bottom: 3px;
+  text-align: initial;
+}
+
+
+/* ------------- Campos del Formulario ------------- */
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: darkgoldenrod;
+  font-size: 15px;
+}
+
+  
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 6px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 3px;
+  text-align: initial;
+}
+
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+
+
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+
+
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+
+
+  width: 100%;
+}
+
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+
+  color: #ffffff;
+  background-color: #5995da;
+
+
+  border: none;
+  border-radius: 3px;
+
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+
+.form-row button:hover {
+  background-color: #76aeed;
+}
+
+
+.form-row button:active {
+  background-color: #407fc7;
+}
+
+#alertas {
+  color: darkgoldenrod;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+
+  .contenedor {
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  header nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 0, 0, 0.918);
+    text-align: center;
+    top: 100px;
+    left: 100%;
+    transition: all 0.5s;
+
+    margin-top: 30px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+
+  }
+
+  #check:checked~ul {
+    left: 0%;
+    display: block;
+
+  }
+
+  #check:checked~.checkbtn {
+    color: goldenrod;
+  }
+
+  header nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  .article {
+    max-width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    color: goldenrod;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding: -400;
+    font-size: 16px;
+    height: 150px;
+
+  }
+
+  header h1.logo {
+    font-size: 24px;
+    line-height: 0px;
+    padding: 0 10px;
+    position: relative;
+    top: 50px;
+  }
+
+
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin-right: 0;
+    line-height: 30px;
+  }
+
+  main {
+    width: 100%;
+    background-color: rgb(88, 91, 228);
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: -20px;
+    padding-top: 150px;
+  }
+
+  .img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .parrafo-lado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .parrafo-lado p {
+    max-width: 100%;
+    display: inline-block;
+  }
+
+  .fuente-acento {
+    font-size: 16px;
+  }
+
+  .titulo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 30px;
+  }
+
+
+  .titulo1 h2,
+  .titulo1 h3 {
+    flex: 1;
+    max-width: 45%;
+
+  }
+
+  #miparrafo {
+    margin-left: 85px;
+  }
+
+  /* Otros estilos generales que necesiten ajustes similares */
+
+  /*barra de navegacion*/
+
+  .navbar.active {
+    height: 100vh;
+
+  }
+
+  .navbar.active ul.menu {
+    opacity: 1;
+    background-color: teal;
+  }
+
+
+
+}
+
+/* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+  .form-header {
+    padding: 50px;
+  }
+
+  .form-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    width: 250px;
+    height: initial;
+  }
+
+  .form-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
+
+  .form-row textarea {
+    width: 250px;
+  }
+
+  .form-row button {
+    margin-left: 120px;
+  }
+
+}
